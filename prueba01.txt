@@ -1,0 +1,37 @@
+// 2. Instrucción condicional
+        if (edad >= 18) {
+            Texto.Imp(nombre + " es mayor de edad.");
+        } else {
+            Texto.Imp(nombre + " es menor de edad.");
+        }
+
+        // 3. Condicional con operadores lógicos
+        if (promedio >= 6.0 && aprobado) {
+            Texto.Imp("Has aprobado el curso.");
+        } else {
+            Texto.Imp("No has aprobado el curso.");
+        }
+
+        // 4. Bucle for: imprimir los primeros 5 números
+        Texto.Imp("\nContando con for:");
+        for (int i = 1; i <= 5; i++) {
+            Texto.Imp("Número: " + i);
+        }
+
+        // 5. Bucle while: cuenta hacia atrás desde 5
+        Texto.Imp("\nContando con while:");
+        int contador = 5;
+        while (contador > 0) {
+            Texto.Imp("Contador: " + contador);
+            contador--;
+        }
+
+        // 6. Operadores aritméticos
+        int a = 10;
+        int b = 3;
+        Texto.Imp("\nOperaciones:");
+        Texto.Imp("Suma: " + (a + b));
+        Texto.Imp("Resta: " + (a - b));
+        Texto.Imp("Multiplicación: " + (a * b));
+        Texto.Imp("División: " + (a / b));
+        Texto.Imp("Módulo: " + (a % b));

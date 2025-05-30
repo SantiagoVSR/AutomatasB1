@@ -1,0 +1,7 @@
+ 	// 1. Declaración y asignación de variables
+       	String nombre = "Carlos";
+        int edad = 20;
+        double promedio = 8.5;
+        boolean aprobado = true;
+
+        
